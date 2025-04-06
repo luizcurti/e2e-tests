@@ -1,25 +1,24 @@
-# Tipos de testes
+E2E Tests
+This repository contains code for End-to-End (E2E) tests. It focuses on simulating user interactions with the application.
 
-Unitários = Testam um componente/funcionalidade de forma **isolada**.
-Integração = Testa como um ou mais componentes/funcionalidades se comportam juntos(as).
-E2E = Simula o que um usuário vai fazer na nossa aplicação diariamente.
+Technologies Used
+TypeScript
+Jest (for running the tests)
 
-# Banco de dados
+Types of Tests
+Unit Tests: Test individual components or functionalities in isolation.
 
-Unitários = Não
-Integração = Talvez
-E2E = Sim (não só Banco de Dados, QUALQUER CONEXÃO EXTERNA INCLUSIVE APIS)
+Integration Tests: Test how multiple components or functionalities work together.
 
-# E-commerce
+E2E Tests: Simulate actual user behavior interacting with the application.
 
-- Realizar compra
+Setup
+Clone the repository:
+git clone https://github.com/luizcurti/e2e-tests.git
 
-1. Cadastra usuário no banco
-2. Cadastra endereço no banco
-3. Se comunica com **gateway de pagamento** pra enviar a transação
-4. Cadastra a compra no banco
+Install dependencies:
+npm install
 
-Unitário: Não tem banco de dados e nem API do Gateway
-E2E: Não é aconselhável ter mocks ou dados fakes 
-
-Gateway de pagamento: Conta de teste (API Key de Teste)
+Run the tests:
+npm test
+npm test:e2e
