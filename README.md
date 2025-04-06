@@ -1,24 +1,24 @@
-E2E Tests
+# E2E Tests
 This repository contains code for End-to-End (E2E) tests. It focuses on simulating user interactions with the application.
 
-Technologies Used
-TypeScript
-Jest (for running the tests)
+## Technologies Used
+* TypeScript
+* Jest (for running the tests)
 
-Types of Tests
+## Types of Tests
 Unit Tests: Test individual components or functionalities in isolation.
 
 Integration Tests: Test how multiple components or functionalities work together.
 
 E2E Tests: Simulate actual user behavior interacting with the application.
 
-Setup
+## Setup
 Clone the repository:
-git clone https://github.com/luizcurti/e2e-tests.git
+* git clone https://github.com/luizcurti/e2e-tests.git
 
-Install dependencies:
-npm install
+## Install dependencies:
+* npm install
 
-Run the tests:
-npm test
-npm test:e2e
+## Run the tests:
+* npm test
+* npm test:e2e
